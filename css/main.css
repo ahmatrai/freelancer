@@ -28,6 +28,10 @@ body {
   color: black;
 }
 
+.star-bar{
+  margin: 0 0;
+}
+
 .fa-star-bar{
   margin-bottom: 15px;
   text-align: center;
@@ -91,18 +95,19 @@ div.right{
   background-repeat: no-repeat;
   height: 636px;
   color: white;
+  padding-top: 19px;
 }
 
 .profile-title{
   font-weight: 800;
-  margin-top: 40px;
-  font-size: 65px;
+  margin-top: 13px;
+  font-size: 66px;
   margin-bottom: 0;
 }
 
 .profile-paragraph{
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 0px;
   font-size: 22px;
   margin-bottom: 0;
 }
