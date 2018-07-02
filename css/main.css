@@ -1,3 +1,248 @@
+/* -------- Geral ---------------- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+  
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  line-height: 1.71429;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.star-bar{
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.bar{
+  display: inline-block;
+  width: 20%;
+  border-top: 1px solid white;
+  position: relative;
+  bottom: 3px;
+  margin: 0;
+}
+
+.icon-star{
+  font-size: 31px;
+  width: 700px;
+  height: 4px;
+  background-color: currentColor;
+  display: inline-block;
+}
+
+/* -------- Header ---------------- */
+.mr-9 {
+  margin-right: 9.3px;
+}
+  
+.header {
+  display: flex;
+  background-color: #2c3e50;
+  height: 81px;
+  width: 100%;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+
+div.left{
+  font-weight: 900;
+  font-size: 24px;
+  padding-left: 142px;
+  margin-top: -1.5px;
+}
+
+div.right{
+  font-weight: 900;
+  font-size: 15px;
+  padding-right: 136px;
+  margin-top: -5px;
+}
+
+/* -------- Section 1 - Profile ---------------- */
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #18BC9C;
+  background-repeat: no-repeat;
+  height: 636px;
+  color: white;
+}
+
+.profile-title{
+  font-weight: 800;
+  margin-top: 40px;
+  font-size: 65px;
+  margin-bottom: 0;
+}
+
+.profile-paragraph{
+  font-weight: 700;
+  margin-top: 40px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+/* -------- Section 2 - portfolio ---------------- */
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  height: 798px;
+  color: black;
+}
+
+.portfolio-title{
+  font-weight: 800;
+  margin-top: 40px;
+  font-size: 43px;
+  margin-bottom: 0;
+}
+
+/* -------- Section 3 - about -------------------- */
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #18BC9C;
+  background-repeat: no-repeat;
+  height: 521px;
+  color: white;
+}
+
+.about-title{
+
+}
+
+/* -------- Section 4 - contact ------------------ */
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  height: 806.49px;
+  color: black;
+}
+
+.contact-title{
+
+}
+
+/* -------- Section 5 - footer ------------------- */
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #2C3E50;
+  background-repeat: no-repeat;
+  height: 308px;
+  color: white;
+}
+
+
+
+
+
+
+  /* font-family: 'Montserrat', sans-serif; */
+
+  /* font-family: 'Lato', sans-serif; */
+
+
 /*
- * Estilos de tu proyecto
- */
+#nav::after {
+    width: 77px;
+    height: 1px;
+    background: #bfbfbf;
+    top: 8px;
+    right: -85px;
+    position: absolute;
+}
+.btn-group-vertical > .btn-group::after, .btn-toolbar::after, .clearfix::after, .container-fluid::after, .container::after, .dl-horizontal dd::after, .form-horizontal .form-group::after, .modal-footer::after, .modal-header::after, .nav::after, .navbar-collapse::after, .navbar-header::after, .navbar::after, .pager::after, .panel-body::after, .row::after {
+    clear: both;
+}
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .modal-header::after, .modal-header::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
+    display: table;
+    content: " ";
+}
+::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#nav::before {
+    width: 77px;
+    height: 1px;
+    background: #bfbfbf;
+    top: 8px;
+    left: -85px;
+    position: absolute;
+}*/
+
+
+
+
+
+
+
+
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+  
+.container:after {
+  clear: both;
+}
+  
+.mb-0 {
+  margin-bottom: 0px;
+}
+  
+.mt-0 {
+  margin-top: 0px;
+}
+  
+.m-0 {
+  margin: 0px;
+}
+  
+.text-uppercase {
+  text-transform: uppercase;
+}
+  
+/* a {
+  color: #373B47;
+  text-decoration: none;
+} 
+  
+a:hover {
+  color: #E95853;
+} */
+  
