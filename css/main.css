@@ -23,6 +23,11 @@ body {
   color: white;
 }
 
+.fa-star-black{
+  font-size: 30px;
+  color: black;
+}
+
 .fa-star-bar{
   margin-bottom: 15px;
   text-align: center;
@@ -30,10 +35,19 @@ body {
 
 .bar{
   display: inline-block;
-  width: 20%;
-  border-top: 1px solid white;
+  width: 100px;
+  border-top: 5px solid white;
   position: relative;
-  bottom: 3px;
+  bottom: 9px;
+  margin: 0;
+}
+
+.bar-black{
+  display: inline-block;
+  width: 100px;
+  border-top: 5px solid black;
+  position: relative;
+  bottom: 9px;
   margin: 0;
 }
 
